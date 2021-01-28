@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fabryka żelków</title>
+</head>
+<body>
+<div class="gorne"> <a href="index.html"><img src="logo.png" alt="logo"></a></div>
+
+<div class="gorne">
+    <a class="zamowienie" href="zamowienie.html">Zamówienie</a><br />
+</div>
+<div class="stopka"><h2>Zamów nasz produkt</h2></div>
+<div class="main">
+    <h1>Oferta</h1>
+    <table>
+        <tr>
+            <td>Kształty</td> <td>Kolory</td> 
+         </tr>
+         <tr>
+            <td><ol>
+                <li>miś</li>
+                <li>żabka</li>
+                <li>serce</li>
+                </ol></td>
+                <td><ol>
+                    <li>czerwony</li>
+                    <li>niebieski</li>
+                    <li>żółty</li>
+                    <li>inny</li>
+
+                    </ol></td> 
+         </tr>
+
+    </table>
+</div>
+<div class="main">
+<div class="form">
+<p>Podaj numer kształtu:</p>
+<input type="number" id="ksztalt" />
+<p>Skomponuj swój kolor, podaj RGB:</p>
+<p>R:<input type="number" id="R" />G:<input type="number" id="G" />B:<input type="number" id="B" /></p>
+<button onclick="calculate()">Zamów</button>
+<p>Wybrany kształt</p>
+</div>
+<button class="colorPicker">Wybrany kolor</button>
+    
+</div>
+<div class="stopka">Autor strony Błażej</div>
+<script src="skrypt.js"></script>
+</body>
+</html>
